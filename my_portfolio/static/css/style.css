@@ -4,7 +4,7 @@
 	/* --special-color: #4b9cd3; */
 	/* --special-color: #eb1a41; */
 	/* --special-color: #ff0055; */
-	--special-color: #cc00ff;
+	--special-color: #8956ff;
 
 	/* Light Theme */
 	/* --light-bg-text: #131313; */
@@ -543,9 +543,9 @@ body {
 	/* border: .5px solid rgba(75,156,211,.5); */
 	/* background-color: rgba(75,156,211,.8); */
 
-	/* vivid-orchid */
-	border: .5px solid rgba(204,0,255,.2);
-	background-color: rgba(204,0,255,.1);
+	/* Bright Royal Purple */
+	border: .5px solid rgba(137,86,255,.2);
+	background-color: rgba(137,86,255,.1);
 }
 
 .project-block:hover {
