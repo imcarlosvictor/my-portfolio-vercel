@@ -44,7 +44,6 @@ texttable==1.6.4
 tornado==6.2
 typing_extensions==4.7.1
 urllib3==1.26.12
-vercel==0.2.1
 wcwidth==0.1.9
 websocket-client==0.59.0
 whitenoise==6.2.0

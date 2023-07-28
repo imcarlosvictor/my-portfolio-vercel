@@ -17,7 +17,7 @@ def home(request):
             # Send to business email
             subject = f'{name.capitalize()} from {company.capitalize()}'
             guest_msg = email + '\n\n' + message
- 
+
             send_mail(subject, guest_msg, email, ['imcvlucas@gmail.com'])
     else:
         form = ContactForm()
