@@ -1,0 +1,44 @@
+{% block content %}
+    {% for project in projects %}
+    <div class="project all-projects">
+        <input type="checkbox" name="project-accordion" id="project1" class="accordion__input">
+        <label for="project1" class="accordion__label project-added">
+            <ul>
+                <li>{% project.id %}</li>
+                <li>{% project.title %}</li>
+                <li>{% project.date_start %}</li>
+                <li><i class='bx bx-check check'></i></li>
+                <li></li>
+                <li><i class='bx bx-plus plus-icon'></i></li>
+            </ul>
+        </label>
+        <!-- <label for="project1" class="accordion__label">Project #1</label> -->
+        <div class="accordion__content">
+            <div class="main-projects" id="project-1">
+                <iframe class="project-image"
+                    src='https://my.spline.design/clockdigitalinteractioncopy-1bd987a14e6e96c9f82e851ab407e8f8/'
+                    frameborder='0' width='100%' height='100%'></iframe>
+                <div class="project-details" id="project-start">
+                    <div class="project-header">
+                        <a href="project-start" id="project-title-start">
+                            <h2 class="project-title">{% project.title %}</h2>
+                        </a>
+                        <p class="project-summary">{% project.description %}</p>
+                    </div>
+                    <div class="project-footer">
+                        <div class="tech-stack">
+                            {% for tech in technology %}
+                                <p class="technology">tech</p>
+                            {% end for %}
+                        </div>
+                        <div class="cta">
+                            <button class="btn-cta view-code">Code</button>
+                            <button class="btn-cta view-live">Live</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% end for %}
+{% end block %}
