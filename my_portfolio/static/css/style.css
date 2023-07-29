@@ -3,7 +3,8 @@
 	/* --special-color: #fdd44a; */
 	/* --special-color: #4b9cd3; */
 	/* --special-color: #ff0055; */
-	--special-color: #8956ff;
+	/* --special-color: #8956ff; */
+	--special-color: #29be9c;
 
 	/* Light Theme */
 	/* --light-bg-text: #131313; */
@@ -538,13 +539,13 @@ body {
 	/* border: .5px solid rgba(235,26,65,.2); */
 	/* background-color: rgba(235,26,65,.1); */
 
-	/* navy */
-	/* border: .5px solid rgba(75,156,211,.5); */
-	/* background-color: rgba(75,156,211,.8); */
+	/* cyan */
+	border: .5px solid rgba(36,191,156,.2);
+	background-color: rgba(36,191,156,.1);
 
 	/* Bright Royal Purple */
-	border: .5px solid rgba(137,86,255,.2);
-	background-color: rgba(137,86,255,.1);
+	/* border: .5px solid rgba(137,86,255,.2); */
+	/* background-color: rgba(137,86,255,.1); */
 }
 
 .project-block:hover {
