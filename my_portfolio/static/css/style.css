@@ -394,7 +394,7 @@ body {
 	/* border-left: 1px solid var(--grey); */
 	/* border-right: 1px solid var(--grey); */
 	border-left: solid 1px rgba(224,224,224,.07);
-	border-right: solid 1px rgba(224,224,224,.07);
+	/* border-right: solid 1px rgba(224,224,224,.07); */
 	padding: 0 1em;
 }
 
