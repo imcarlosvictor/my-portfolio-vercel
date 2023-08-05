@@ -1,6 +1,6 @@
 :root {
 	/* Special Colours */
-	/* blue: #4b9cd3; */
+	/* blue-ish purple: #591edd; */
 	/* red: #ff0055; */
 	/* purple #8956ff; */
 	/* desaturated green: #24be9c */
@@ -546,13 +546,14 @@ body {
 	/* border: .5px solid rgba(36,191,156,.2); */
 	/* background-color: rgba(36,191,156,.1); */
 
-	/* Bright Royal Purple */
-	/* border: .5px solid rgba(137,86,255,.2); */
-	/* background-color: rgba(137,86,255,.1); */
+	/* #591EDD */
+	/* border: .5px solid rgba(89,30,221,.2); */
+	/* background-color: rgba(89,30,221,.1); */
 
-	/* Blu-ish Purple */
-	border: .5px solid rgba(89,30,221,.2);
-	background-color: rgba(89,30,221,.1);
+	/* offwhite */
+	border: .5px solid rgba(224, 224, 224,.02);
+	background-color: rgba(224, 224, 224,.02);
+
 }
 
 .project-block:hover {
@@ -585,8 +586,8 @@ body {
 	padding: 1em .8em .3em .3em;
 	font-size: 10px;
 	text-align: right;
-	/* color: var(--offwhite); */
-	color: var(--special-color);
+	color: var(--offwhite);
+	/* color: var(--special-color); */
 }
 
 .project-icon {
@@ -607,8 +608,8 @@ body {
 	font-size: 12px;	
 	font-weight: normal;
 	padding: 0;
-	/* color: var(--offwhite); */
-	color: var(--special-color);
+	color: var(--offwhite);
+	/* color: var(--special-color); */
 }
 
 .section-title {
