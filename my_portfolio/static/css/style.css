@@ -1,10 +1,11 @@
 :root {
 	/* Special Colours */
-	/* --special-color: #4b9cd3; */
-	/* --special-color: #ff0055; */
-	/* --special-color: #8956ff; */
-	/* desaturated cyan #24be9c */
-	--special-color: #00fa9e;
+	/* blue: #4b9cd3; */
+	/* red: #ff0055; */
+	/* purple #8956ff; */
+	/* desaturated green: #24be9c */
+	/* bright green: #00fa9e; */
+	--special-color: #713de5;
 
 	/* Light Theme */
 	/* --light-bg-text: #131313; */
@@ -155,7 +156,8 @@ body {
 
 .sidebar ul li #resume-tooltip {
 	background: var(--special-color);
-	color: var(--black);
+	/* color: var(--black); */
+	color: var(--offwhite);
 }
 
 .sidebar ul li:hover .tooltip {
@@ -219,7 +221,8 @@ body {
 #close {
 	margin-top: 1.8em;
 	background-color: var(--special-color);
-	color: var(--black);
+	/* color: var(--black); */
+	color: var(--offwhite);
 	border: 0;
 	border-radius: 3px;
 	padding: 10px 25px;
@@ -540,41 +543,34 @@ body {
 	/* background-color: rgba(235,26,65,.1); */
 
 	/* cyan */
-	border: .5px solid rgba(36,191,156,.2);
-	background-color: rgba(36,191,156,.1);
+	/* border: .5px solid rgba(36,191,156,.2); */
+	/* background-color: rgba(36,191,156,.1); */
 
 	/* Bright Royal Purple */
 	/* border: .5px solid rgba(137,86,255,.2); */
 	/* background-color: rgba(137,86,255,.1); */
+
+	/* Blu-ish Purple */
+	border: .5px solid rgba(89,30,221,.2);
+	background-color: rgba(89,30,221,.1);
 }
 
 .project-block:hover {
-	/* red */
 	border: 1px solid var(--special-color);
 	background-color: var(--special-color);
-
-	/* navy */
-	/* border: 1px solid var(--navy); */
-	/* background-color: var(--navy); */
-
 	transition: all .2s ease;
 	cursor: pointer;
 }
 
 .project-block:hover .project-counter > p{
-	/* red */
-	color: var(--black);
-	/* navy */
-	/* color: var(--offwhite); */
+	/* color: var(--black); */
+	color: var(--offwhite);
 
 	transition: all .2s ease;
 }
 
 .project-block:hover .project-title  {
-	/* red */
-	color: var(--black);
-	/* navy */
-	/* color: var(--offwhite); */
+	color: var(--offwhite);
 
 	transition: all .2s ease;
 }
@@ -589,13 +585,8 @@ body {
 	padding: 1em .8em .3em .3em;
 	font-size: 10px;
 	text-align: right;
-
-	/* red */
 	/* color: var(--offwhite); */
 	color: var(--special-color);
-
-	/* navy */
-	/* color: var(--navy); */
 }
 
 .project-icon {
@@ -616,11 +607,8 @@ body {
 	font-size: 12px;	
 	font-weight: normal;
 	padding: 0;
-	/* red */
+	/* color: var(--offwhite); */
 	color: var(--special-color);
-
-	/* navy */
-	/* color: var(--navy); */
 }
 
 .section-title {
