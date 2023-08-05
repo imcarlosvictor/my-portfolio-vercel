@@ -323,7 +323,8 @@ body {
 	width: 70%;
 	padding-left: 1em;
 	font-size: 20px;
-	border-left: solid 1px var(--grey);
+	/* border-left: solid 1px var(--grey); */
+	border-left: solid 1px rgba(224,224,224,.07);
 }
 
 #about-me-content > .section-about-me {
@@ -342,7 +343,8 @@ body {
 .skill-section {
 	width: 70%;
 	margin-top: 2em;
-	border-left: solid 1px var(--grey);
+	/* border-left: solid 1px var(--grey); */
+	border-left: solid 1px rgba(224,224,224,.07);
 	padding-left: 1em;
 	font-size: 20px;
 }
@@ -389,8 +391,10 @@ body {
 
 .project-image-section, .project-details-section, .project-description-section {
 	margin-top: 1.5em;
-	border-left: 1px solid var(--grey);
-	border-right: 1px solid var(--grey);
+	/* border-left: 1px solid var(--grey); */
+	/* border-right: 1px solid var(--grey); */
+	border-left: solid 1px rgba(224,224,224,.07);
+	border-right: solid 1px rgba(224,224,224,.07);
 	padding: 0 1em;
 }
 
