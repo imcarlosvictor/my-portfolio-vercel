@@ -5,7 +5,7 @@
 	/* #24be9c */
 	/* #00fa9e; */
 	/* #713de5; */
-	--special-color: #AFDF00;
+	--special-color: #15aea0;
 
 	/* Light Theme */
 	/* --light-bg-text: #131313; */
@@ -559,8 +559,8 @@ body {
 }
 
 .project-block:hover {
-	border: 1px solid var(--special-color);
-	background-color: var(--special-color);
+	border: 1px solid var(--offwhite);
+	background-color: var(--offwhite);
 	transition: all .2s ease;
 	cursor: pointer;
 }
