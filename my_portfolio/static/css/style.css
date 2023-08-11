@@ -156,7 +156,7 @@ body {
 
 .sidebar ul li #resume-tooltip {
 	background: var(--special-color);
-	color: var(--black);
+	color: var(--offwhite);
 }
 
 .sidebar ul li:hover .tooltip {
@@ -220,7 +220,7 @@ body {
 #close {
 	margin-top: 1.8em;
 	background-color: var(--special-color);
-	color: var(--black);
+	color: var(--offwhite);
 	border: 0;
 	border-radius: 3px;
 	padding: 10px 25px;
