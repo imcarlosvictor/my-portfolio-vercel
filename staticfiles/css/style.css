@@ -1,11 +1,11 @@
 :root {
 	/* Special Colours */
-	/* blue-ish purple: #591edd; */
-	/* red: #ff0055; */
-	/* purple #8956ff; */
-	/* desaturated green: #24be9c */
-	/* bright green: #00fa9e; */
-	--special-color: #713de5;
+	/* #591edd; */
+	/* #ff0055; */
+	/* #24be9c */
+	/* #00fa9e; */
+	/* #713de5; */
+	--special-color: #AFDF00;
 
 	/* Light Theme */
 	/* --light-bg-text: #131313; */
@@ -156,8 +156,7 @@ body {
 
 .sidebar ul li #resume-tooltip {
 	background: var(--special-color);
-	/* color: var(--black); */
-	color: var(--offwhite);
+	color: var(--black);
 }
 
 .sidebar ul li:hover .tooltip {
@@ -221,8 +220,7 @@ body {
 #close {
 	margin-top: 1.8em;
 	background-color: var(--special-color);
-	/* color: var(--black); */
-	color: var(--offwhite);
+	color: var(--black);
 	border: 0;
 	border-radius: 3px;
 	padding: 10px 25px;
@@ -568,14 +566,15 @@ body {
 }
 
 .project-block:hover .project-counter > p{
-	/* color: var(--black); */
-	color: var(--offwhite);
+	color: var(--black);
+	/* color: var(--offwhite); */
 
 	transition: all .2s ease;
 }
 
 .project-block:hover .project-title  {
-	color: var(--offwhite);
+	color: var(--black);
+	/* color: var(--offwhite); */
 
 	transition: all .2s ease;
 }
@@ -590,8 +589,8 @@ body {
 	padding: 1em .8em .3em .3em;
 	font-size: 10px;
 	text-align: right;
-	color: var(--offwhite);
-	/* color: var(--special-color); */
+	/* color: var(--offwhite); */
+	color: var(--black);
 }
 
 .project-icon {
