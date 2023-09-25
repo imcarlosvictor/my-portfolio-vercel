@@ -1,14 +1,5 @@
 :root {
-	/* Special Colours */
-	--special-color: #33ff00;
-
-	/* Light Theme */
-	/* --light-bg-text: #131313; */
-	/* --light-bg-form: #; */
-	/* --light-bg-btn: #131313; */
-	/* --light-bg: #c8c7cd; */
-
-	/* Dark Theme */
+	--special-color: #fe2a90;
 	--offwhite: #e0e0e0; /* text */
 	--grey: #5d5d5d;
 	--dark-grey: #171819; /* form background */
@@ -215,7 +206,7 @@ body {
 #close {
 	margin-top: 1.8em;
 	background-color: var(--special-color);
-	color: var(--offwhite);
+	color: var(--black);
 	border: 0;
 	border-radius: 3px;
 	padding: 10px 25px;
